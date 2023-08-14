@@ -8,7 +8,7 @@ img{
 	width: 100%;
 }
 .wrapper{
-    max-width: 1200px;
+    max-width: 1400px;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -41,6 +41,7 @@ img{
     background-color: #333333;
     color: #fff;
     padding: 20px;
+		margin-left: 20px;
  }
 
 @media only screen and (max-width: 767px){
@@ -62,9 +63,10 @@ img{
 		font-size: 20px;
 	}
 }
-.g-navi__inner{
-  display: flex;
-  text-align: center;
+.g-navi__inner {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
 }
 .menu li{
   padding: 40px;
@@ -72,4 +74,15 @@ img{
 }
 .menu li a{
 	color: #333333;
+}
+.sec_01{
+	margin-top: 100px;
+}
+.sec_01_title h1{
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+.sec_01_title{
+	display: flex;
+	justify-content: space-between;
 }
